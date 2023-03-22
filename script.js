@@ -1,9 +1,12 @@
 const categoryList = {
-  food: ['example1.com', 'example2.com'],
-  cocktails: ['example3.com', 'example4.com'],
-  personal_finance: ['example5.com', 'example6.com'],
-  home_improvement: ['example7.com', 'example8.com'],
-  texas_gardening: ['example9.com', 'example10.com'],
+  food: ['seriouseats.com', 'foodwishes.blogspot.com','www.youtube.com/channel/UC54SLBnD5k5U3Q6N__UjbAw','www.americastestkitchen.com',
+         'cooksillustrated.com','modernistcuisine.com/mc-recipes/','maangchi.com','chefsteps.com','amazingribs.com',
+         'rickbayless.com','177milkstreet.com/recipes','greatbritishchefs.com/','joepastry.com','ruhlman.com','Reddit.com/r/askculinary',
+         'www.kingarthurflour.com/recipes'],
+  cocktails: ['Reddit.com/r/cocktails'],
+  personal_finance: ['Reddit.com/r/cocktails'],
+  home_improvement: ['Reddit.com/r/homeimprovement'],
+  texas_gardening: ['neilsperry.com'],
 };
 
 const categorySelect = document.getElementById('category');
