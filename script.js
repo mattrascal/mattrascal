@@ -1,10 +1,11 @@
 const categoryList = {
-  food: ['seriouseats.com', 'foodwishes.blogspot.com','www.youtube.com/channel/UC54SLBnD5k5U3Q6N__UjbAw','www.americastestkitchen.com',
+  food: ['seriouseats.com', 'foodwishes.blogspot.com','youtube.com/channel/UC54SLBnD5k5U3Q6N__UjbAw','youtube.com/@aragusea',
+         'americastestkitchen.com',
          'cooksillustrated.com','modernistcuisine.com/mc-recipes/','maangchi.com','chefsteps.com','amazingribs.com',
          'rickbayless.com','177milkstreet.com/recipes','greatbritishchefs.com/','joepastry.com','ruhlman.com','Reddit.com/r/askculinary',
-         'www.kingarthurflour.com/recipes'],
+         'kingarthurflour.com/recipes'],
   cocktails: ['Reddit.com/r/cocktails'],
-  personal_finance: ['Reddit.com/r/cocktails'],
+  personal_finance: ['Reddit.com/r/cocktails','jeffreymorgenthaler.com'],
   home_improvement: ['Reddit.com/r/homeimprovement'],
   texas_gardening: ['neilsperry.com'],
 };
