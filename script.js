@@ -41,7 +41,7 @@ categorySelect.addEventListener('change', () => {
 searchButton.addEventListener('click', () => {
   const searchTerm = searchInput.value;
   const checkedWebsites = Array.from(document.getElementsByName('website'))
-  .filter(checkbox => checkbox.checked)
+    .filter(checkbox => checkbox.checked)
     .map(checkbox => checkbox.value)
     .join(' OR site:');
 
@@ -52,10 +52,11 @@ searchButton.addEventListener('click', () => {
   } else {
     alert('Please enter a search term and select at least one website.');
   }
+});
 
 searchForm.addEventListener('submit', (event) => {
-  event.preventDefault(); // Prevent the default form submission behavior
-  
+  event.preventDefault();
+
   const searchTerm = searchInput.value;
   const checkedWebsites = Array.from(document.getElementsByName('website'))
     .filter(checkbox => checkbox.checked)
