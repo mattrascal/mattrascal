@@ -10,6 +10,7 @@ const categorySelect = document.getElementById('category');
 const searchButton = document.getElementById('searchButton');
 const searchInput = document.getElementById('search');
 const websiteList = document.getElementById('websiteList');
+const searchForm = document.getElementById('searchForm');
 
 categorySelect.addEventListener('change', () => {
   websiteList.innerHTML = '';
@@ -38,6 +39,23 @@ searchButton.addEventListener('click', () => {
   const searchTerm = searchInput.value;
   const checkedWebsites = Array.from(document.getElementsByName('website'))
   .filter(checkbox => checkbox.checked)
+    .map(checkbox => checkbox.value)
+    .join(' OR site:');
+
+  if (searchTerm && checkedWebsites) {
+    const query = encodeURIComponent(searchTerm + ' site:' + checkedWebsites);
+    const searchUrl = `https://www.google.com/search?q=${query}`;
+    window.open(searchUrl, '_blank');
+  } else {
+    alert('Please enter a search term and select at least one website.');
+  }
+
+searchForm.addEventListener('submit', (event) => {
+  event.preventDefault(); // Prevent the default form submission behavior
+  
+  const searchTerm = searchInput.value;
+  const checkedWebsites = Array.from(document.getElementsByName('website'))
+    .filter(checkbox => checkbox.checked)
     .map(checkbox => checkbox.value)
     .join(' OR site:');
 
