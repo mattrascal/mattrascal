@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Category Search</h1>
+    <div>
+        <label for="category">Category:</label>
+        <select id="category">
+            <option value="" selected disabled>Select a category</option>
+            <option value="food">Food</option>
+            <option value="cocktails">Cocktails</option>
+            <option value="personal_finance">Personal Finance</option>
+            <option value="home_improvement">Home Improvement</option>
+            <option value="texas_gardening">Texas Gardening</option>
+        </select>
+    </div>
+    <div>
+        <label for="search">Search:</label>
+        <input type="text" id="search">
+        <button id="searchButton">Search</button>
+    </div>
+    <div id="websiteList" hidden>
+        <!-- The list of websites will be generated here -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
