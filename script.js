@@ -6,8 +6,9 @@ const categoryList = {
          'kingarthurflour.com/recipes'],
   cocktails: ['Reddit.com/r/cocktails','jeffreymorgenthaler.com'],
   personal_finance: ['bogleheads.org','early-retirement.org','jlcollinsnh.com','mrmoneymustache.com'],
-  home_improvement: ['Reddit.com/r/homeimprovement','thisoldhouse.com'],
-  texas_gardening: ['neilsperry.com','agrilifeextension.tamu.edu','wildflower.org','centraltexasgardener.org'],
+  home_improvement: ['Reddit.com/r/homeimprovement','thisoldhouse.com','youtube.com'],
+  texas_gardening: ['neilsperry.com','agrilifeextension.tamu.edu','wildflower.org','centraltexasgardener.org','bexarmg.org',
+         'signaturegardens.blogspot.com','milbergernursery.com','facebook.com/NeilSperryTexas/'],
 };
 
 const categorySelect = document.getElementById('category');
