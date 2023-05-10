@@ -4,7 +4,7 @@ const categoryList = {
          'cooksillustrated.com','modernistcuisine.com/mc-recipes/','maangchi.com','chefsteps.com','amazingribs.com',
          'rickbayless.com','177milkstreet.com/recipes','greatbritishchefs.com/','joepastry.com','ruhlman.com','Reddit.com/r/askculinary',
          'kingarthurflour.com/recipes'],
-  cocktails: ['Reddit.com/r/cocktails','jeffreymorgenthaler.com'],
+  cocktails: ['Reddit.com/r/cocktails','jeffreymorgenthaler.com','www.diffordsguide.com','imbibemagazine.com','liberandcompany.com'],
   personal_finance: ['bogleheads.org','early-retirement.org','jlcollinsnh.com','mrmoneymustache.com'],
   home_improvement: ['Reddit.com/r/homeimprovement','thisoldhouse.com','youtube.com'],
   texas_gardening: ['neilsperry.com','agrilifeextension.tamu.edu','wildflower.org','centraltexasgardener.org','bexarmg.org',
